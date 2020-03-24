@@ -155,7 +155,7 @@ a:hover {
 	background: #FFFFFF;
 	text-transform: lowercase;
 	font: normal 11px Arial, Helvetica, sans-serif;
-	color: #5D781D;
+	color:#483D8B;
 }
 
 #search-submit {
@@ -163,7 +163,7 @@ a:hover {
 	height: 22px;
 	border: none;
 	background: #B9B9B9;
-	color: #000000;
+	color: #483D8B;
 }
 
 /* Menu */
@@ -206,7 +206,7 @@ a:hover {
 }
 
 #menu a:hover, #menu .current_page_item a {
-	border-bottom: 5px solid #040509;
+	border-bottom: 5px solid #483D8B;
 	text-decoration: none;
 }
 
