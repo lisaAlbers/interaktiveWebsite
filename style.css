@@ -4,7 +4,7 @@ Design by TEMPLATED
 http://templated.co
 Released for free under the Creative Commons Attribution License
 */
-
+/*Password Check*/
 body {
 	margin: 0px;
 	padding: 0px;
@@ -56,7 +56,6 @@ a:hover {
 	position:absolute;
 	border-radius:15px;
 }
-
 #wrapper {
 }
 
@@ -132,8 +131,30 @@ a:hover {
 	width: 960px;
 	height: 300px;
 	margin: 0px auto;
+}‚
+/*cool effect*/
+.container2{
+	width: 1000px;
+	margin: 0px auto;
+	margin-top: 40px;
+	cursor: pointer;
 }
+canvas {
+	border: 1px soild black;
+  }
 
+.container2 h1{
+	display: inline-block;
+	padding: .3em;
+	font-family: 'Megrim', cursive;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	user-select: none;
+	transform: translate(-50%,-50%);
+	color: rgba(255,255,255,.68);
+	border: .075em solid rgba(255,255,255,.1);
+}
 /* Search */
 
 #search {
@@ -141,6 +162,7 @@ a:hover {
 	width: 280px;
 	height: 60px;
 	padding: 20px 0px 0px 0px;
+	margin-top: 300px;
 }
 
 #search form {
@@ -531,7 +553,7 @@ img {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: 1500px;
+  margin-top: 2700px;
   padding: 16px;
   color: white;
   font-weight: bold;

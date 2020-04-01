@@ -21,7 +21,7 @@ Released   : 20120617
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 <body>
-<div id="wrapper">
+	<div id="wrapper">
 	<div id="wrapper2">
 		<div id="header" class="container">
 			<div id="logo">
@@ -40,6 +40,7 @@ Released   : 20120617
 		</div>
 		<!-- end #header -->
 		<div id="banner-wrapper"></div>
+<div class="spacer"></div>
 		<div id="page">
 			<div id="content">
 				<div class="post">
@@ -78,6 +79,14 @@ Released   : 20120617
 		<!-- end #page -->
 	</div>
 </div>
+<section class="container2">
+		<canvas id="canvas"></canvas>
+		<h1>Click Anywhere</h1>
+</section>
+<!-- stats - count particles -->
+<div class="count-particles">
+  <span class="js-count-particles">--</span> particles
+</div>
 <div class="container1">
         <div class="search-wrapper">
             <div id="searchBox">
@@ -93,9 +102,7 @@ Released   : 20120617
 
         </div>
     </div>
-
-
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
         <defs>
             <filter id="goo">
                 <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
