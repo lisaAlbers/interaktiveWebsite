@@ -1,3 +1,4 @@
+/*Searchbar*/
 const bubbles = document.querySelectorAll('.bubble');
 const bubblePosition = [0, 50]
 const search = document.querySelector('.search-wrapper');
@@ -36,7 +37,7 @@ search.addEventListener('mouseover', function() {
         inputAppended.style = 'caret-color: transparent';
         inputAppended.addEventListener('keypress', (e) => {
             if(e.keyCode == 13) {
-                console.log('Now I am removing text but you can do whatever you want with text value 😊');
+                console.log('Now I am removing text but you can do whatever you want with text value');
                 inputAppended.value = '';              
             }            
         });
@@ -58,6 +59,8 @@ search.addEventListener('mouseout', function() {
         S.innerHTML = 'S';
     }, 1000);
 });
+
+/*Slideshow*/
 document.addEventListener('keydown', function(event) {
     var ekey = event.keyCode
     if( 37 === ekey ) {
@@ -122,6 +125,7 @@ previous.onclick = function() {
     pauseSlideshow();
     previousSlide();
 };
+/*Counter*/
 const counters = document.querySelectorAll('.counter');
 const speed = 200; // The lower the slower
 
@@ -149,6 +153,7 @@ counters.forEach(counter => {
 
 	updateCount();
 });
+/*mouseeffect*/
 document.onmousemove = animateCircles;
 var colors = ['#ccc','#6cf','#eba13a'];
 function animateCircles (event){
@@ -173,6 +178,7 @@ function animateCircles (event){
     circle.style.opacity = 0;
 
 }
+/*cool Effects*/
 // Little Canvas things
 var canvas = document.querySelector("#canvas"),
     ctx = canvas.getContext('2d');
